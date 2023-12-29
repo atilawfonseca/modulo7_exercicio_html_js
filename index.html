@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <title>Modulo 7</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Modulo 7</h1>
+            <h2>html e javascript</h2>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="messagem">
+                <p id="messagem_error">erro: O B precisa ser maior que A</p>
+                <p id="messagem_sucesso">Operação realizada com Sucesso!</p>
+            </div>
+            <form id="form-comparacao">
+                <div>
+                    <label for="campo_a">Campo A </label>
+                    <input id="campo_a" type="number" placeholder="Insira o primeiro número" required />
+                </div>
+                <div>
+                    <label for="campo_b">Campo B </label>
+                    <input id="campo_b" type="number" placeholder="Insira o segundo número" required />
+                </div>
+                <input id="btn-validar" type="submit" value="validar" />
+            </form>
+        </div>
+    </main>
+    <script src="main.js" ></script>
+</body>
+</html>
